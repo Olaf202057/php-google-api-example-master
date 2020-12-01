@@ -1,0 +1,88 @@
+
+// google-api-example> sass style.scss web/style.css 
+// google-api-example> sass style.scss web/style.css --style compressed --sourcemap=none
+
+@import './vendor/twbs/bootstrap/scss/_variables.scss';        // NB, must be first file 
+
+
+@import './vendor/twbs/bootstrap/scss/_mixins.scss';
+@import './vendor/twbs/bootstrap/scss/_forms.scss';
+@import './vendor/twbs/bootstrap/scss/_buttons.scss';
+@import './vendor/twbs/bootstrap/scss/_grid.scss';
+
+.text-input{
+    @extend .form-control;
+    width:100px;
+    display: inline;
+}
+
+.colored-button {
+  @extend .btn;
+  @extend .btn-sm;
+}
+
+.blue-button {
+  @extend .colored-button;
+  @extend .btn-primary;
+}
+
+.green-button {
+  @extend .colored-button;
+  @extend .btn-success;
+}
+
+.red-button {
+  @extend .colored-button;
+  @extend .btn-danger;
+}
+
+section {
+  @include make-row();
+}
+
+.container {
+  max-width: 60em;
+  @include make-container();
+}
+
+.row {
+  @include make-row();
+}
+
+.content-main {
+  @include make-col-ready();
+
+  @media (max-width: 32em) {
+    @include make-col(3);
+  }
+  @media (min-width: 32.1em) {
+    @include make-col(3);
+  }
+  text-align: center;
+  font-size: 1.75rem;
+}
+
+.content-secondary {
+  @include make-col-ready();
+
+  @media (max-width: 32em) {
+    @include make-col(3);
+  }
+  @media (min-width: 32.1em) {
+    @include make-col(3);
+  }
+  overflow: hidden;
+  border: 1px solid rgba(86, 61, 124, .2);
+}
+
+[class*="column-1"] {
+  background-color: rgba(86, 61, 124, .2);
+}
+
+[class*="column-2"] {
+  background-color: rgba(124, 61, 86, .2);
+}
+
+[class*="column-3"] {
+  background-color: rgba(124, 86, 61, .2);
+}

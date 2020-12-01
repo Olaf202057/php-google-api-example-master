@@ -1,0 +1,3 @@
+[2016-12-04 08:38:05] logger.ERROR: Unknown error type: [2] require_once(D:\_SFF_AUDIO_\google\tests/userTasks/userSignIn/user_sign_in.php): failed to open stream: No such file or directory on line 38 in file D:\_SFF_AUDIO_\google\tests\call_tests.php. Aborted [] []
+[2016-12-15 04:26:47] logger.ERROR: Unknown error type: [2] require_once(D:\htdocs\google-api-example\tests/scss/scss.php): failed to open stream: No such file or directory on line 31 in file D:\htdocs\google-api-example\tests\call_tests.php. Aborted [] []
+[2016-12-15 04:26:55] logger.ERROR: Unknown error type: [2] require_once(D:\htdocs\google-api-example\tests/scss/scss.php): failed to open stream: No such file or directory on line 31 in file D:\htdocs\google-api-example\tests\call_tests.php. Aborted [] []

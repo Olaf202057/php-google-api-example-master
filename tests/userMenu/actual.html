@@ -1,0 +1,22 @@
+                <meta name='google-signin-client_id' content='518789263140-q3ul5e0g70j0vj2ogv5bt645i855c5jn.apps.googleusercontent.com'>
+                            <script src="https://apis.google.com/js/platform.js?onload=onLoadGoogle" async defer></script>
+            <script>
+                function onLoadGoogle() {
+                    gapi.load('auth2', function() { gapi.auth2.init() })
+                }
+
+                function signOutGoogle() {
+                    var auth2 = gapi.auth2.getAuthInstance()
+                    var q = auth2.signOut()
+                    window.location = "/logout.php"
+                }
+            </script>
+                
+<br /><br />
+       <div class='container'>
+                <a class="blue-button " href="/edit.php" role="button">Edit Information</a>
+                <a class="blue-button disabled" href="/list.php" role="button">List Members</a>
+                <a class="blue-button " href="/manual.php" role="button">View Manual</a>
+                <a class="red-button" href='#' onclick="signOutGoogle()" role="button">Log Out</a>
+                <br /><br />
+              </div>

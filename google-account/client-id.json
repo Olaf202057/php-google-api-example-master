@@ -1,0 +1,20 @@
+{
+  "web": {
+    "client_id": "a---------------------------------------z.apps.googleusercontent.com",
+    "project_id": "a--------------------z",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://accounts.google.com/o/oauth2/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret": "a--------------------z",
+    "redirect_uris": [
+      "https://google-api-example.herokuapp.com/reset-db/oauth2callback.phpp"
+    ],
+    "javascript_origins": [
+      "https://google-api-example.herokuapp.com"
+    ]
+  },
+   "google_url": "https://console.developers.google.com/apis/credentials/oauthclient/a---------------------------------------z.apps.googleusercontent.com?project=sunny-advantage-135105"
+}
+
+
+

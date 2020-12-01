@@ -1,0 +1,19 @@
+{
+  "web": {
+    "client_id": "A-------------------sample-------------------Z.apps.googleusercontent.com",
+    "project_id": "the-----sample-----project",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://accounts.google.com/o/oauth2/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret": "A--------sample--------Z",
+    "redirect_uris": [
+      "http://www.ur---sample---site.com/oauth2callback.php"
+    ],
+    "javascript_origins": [
+      "http://www.ur---sample---site.com"
+    ]
+  }
+}
+
+
+

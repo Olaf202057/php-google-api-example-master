@@ -1,0 +1,8 @@
+AuthType Basic
+AuthName "Restricted Files"
+
+AuthUserFile /app/google-account/.htpasswd
+#AuthUserFile /app/google-sample/.htpasswd
+#AuthUserFile /app/google-test/.htpasswd
+
+Require valid-user
